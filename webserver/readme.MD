@@ -100,5 +100,9 @@ Run the index.js file from Grafana folder and check on the sql database as well 
 The output of this project can be seen on 'Flask' as well as on Grafana
 	
 
-created by: saurabh patil
-email: er.saurabhpatil@gmail.com
+created by: 
+Saurabh Patil (er.saurabhpatil@gmail.com)
+
+Supported by: 
+Lomesh Mahajan
+Sanket Desai
