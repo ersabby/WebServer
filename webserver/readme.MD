@@ -10,20 +10,24 @@ Before running the code in grafana directory, make sure of the following:
 
 # Prerequisites:
   Devices:
+  
   Hardware requirements:
+    
     ▪ RaspberryPi – Acts as a broker
     ▪ DHT11 – Sensing Temperature and Humidity
     ▪ ESP32 – Acts as a publisher
 
 Software requirements:
-    ▪ Arduino IDE
-    ▪ Flask
-    ▪ Python
-    ▪ SQLite
+	
+	▪ Arduino IDE
+    	▪ Flask
+    	▪ Python
+    	▪ SQLite
 
 # Installation:
 
 • Flask:
+
 Flask is an open source micro-framework for python based on Werkzeug, Jinja 2 and good intentions and supports Web      Server Gateway Interface (WSGI)
 ‘WSGI is adopted as standard for python web application development’
   		- sudo apt-get update
