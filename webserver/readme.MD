@@ -1,4 +1,4 @@
-#This code contains support for SQLite as well as MYSQL
+# This code contains support for SQLite as well as MYSQL
 
 For visualisation using grafana the SQLite database is not supported, so we need to use 'MYSQL' database.
 
@@ -15,13 +15,13 @@ Before running the code in grafana directory, make sure of the following:
 # Prerequisites:
   Devices:
   
-  Hardware requirements:
+  	Hardware requirements:
     
-    ▪ RaspberryPi – Acts as a broker
-    ▪ DHT11 – Sensing Temperature and Humidity
-    ▪ ESP32 – Acts as a publisher
+	▪ RaspberryPi – Acts as a broker
+    	▪ DHT11 – Sensing Temperature and Humidity
+    	▪ ESP32 – Acts as a publisher
 
-Software requirements:
+	Software requirements:
 	
 	▪ Arduino IDE
     	▪ Flask
