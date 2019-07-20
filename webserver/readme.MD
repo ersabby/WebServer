@@ -1,7 +1,9 @@
 #This code contains support for SQLite as well as MYSQL
 
 For visualisation using grafana the SQLite database is not supported, so we need to use 'MYSQL' database.
+
 The code for node js is added in 'Grafana' directory.
+
 Before running the code in grafana directory, make sure of the following:
 	-You have installed grafana locally, if not the enter the following command in terminal  and hit enter:
 		wget https://dl.grafana.com/oss/release/grafana_5.4.2_amd64.deb
