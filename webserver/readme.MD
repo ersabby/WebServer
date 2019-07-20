@@ -5,8 +5,10 @@ For visualisation using grafana the SQLite database is not supported, so we need
 The code for node js is added in 'Grafana' directory.
 
 Before running the code in grafana directory, make sure of the following:
+	
 	-You have installed grafana locally, if not the enter the following command in terminal  and hit enter:
 		wget https://dl.grafana.com/oss/release/grafana_5.4.2_amd64.deb
+	
 	-To include the node modules using:
 		-npm install dependencies
 
@@ -50,13 +52,23 @@ Software requirements:
 		- sqlite3 sensordata.db
 
 Lets create a table before running the program:
+
 sqlite> BEGIN;
-sqlite> CREATE TABLE dhtreadings(id INTEGER PRIMARY KEY AUTOINCREMENT, temperature  NUMERIC, humidity NUMERIC, currentdate DATE, currentime TIME, device TEXT);
+
+sqlite> CREATE TABLE dhtreadings(id INTEGER PRIMARY KEY AUTOINCREMENT, temperature  NUMERIC, humidity NUMERIC, 
+
+currentdate DATE, currentime TIME, device TEXT);
+
 sqlite> COMMIT;
+
 To list all the avilable tables, type:
+
 sqlite> .tables
+
 dhtreadings
+
 It returns the newly created table named ‘dhtreadings’. You can see the fullschema of the tables when you enter:
+
 sqlite> .fullschema
 
 • MYSQL:
@@ -108,7 +120,7 @@ sqlite> .fullschema
 
 #Outputs:
 	
-	The output of this project can be seen on 'Flask' as well as on Grafana
+	The output of this project can be seen on 'Flask' as well as on 'Grafana'
 	
 
 created by: 
