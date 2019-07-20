@@ -1,4 +1,5 @@
-# This code contains support for SQLite as well as MYSQL
+# Study of flask and Grafana using MQTT protocol
+This code contains support for SQLite as well as MYSQL
 
 For visualisation using grafana the SQLite database is not supported, so we need to use 'MYSQL' database.
 
