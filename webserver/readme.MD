@@ -123,11 +123,8 @@ sqlite> .fullschema
 	
 	The output of this project can be seen on 'Flask' as well as on 'Grafana'
 	
-
-created by: 
-Saurabh Patil (er.saurabhpatil@gmail.com)
-
-Supported by: 
+Modified by: 
 	
+	Saurabh Patil (er.saurabhpatil@gmail.com)
 	Lomesh Mahajan
 	Sanket Desai
